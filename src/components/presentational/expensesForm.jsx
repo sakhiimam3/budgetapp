@@ -9,8 +9,10 @@ const ExpensesForm = (props) => {
         handleAmount,
         handleCharge,
         handleSubmit,
-        isedit
+        isedit,
 }=props
+
+
   return (
        
       <section className={Styles.form_section}>
