@@ -1,0 +1,93 @@
+@import "./mixin.scss";
+.main_item_div{
+    
+ li{
+      list-style: none;
+      @include flexprop2;
+      margin-top: 15px;
+      text-transform: capitalize;
+      transition: all .6s linear;
+      cursor: pointer;
+      
+    
+      &:hover{
+              background-color: rgb(19, 18, 18);
+              color: rgb(228, 227, 227);
+              transform: translate(-5px);
+              border-radius: 10px;
+     
+      }
+      .li_deleteBtn{
+               color: #D11A2A;
+               font-size: 20px;
+               cursor: pointer;
+      }
+      .li_editBtn{
+            color: #0c4904;
+            font-size: 20px;
+            cursor: pointer;
+      }
+   
+ }
+ .indiviualItem_div{
+       width: 50vw;
+       background-color: rgb(107, 107, 107);
+       height: 3rem;
+       line-height: 3rem;
+      color: white;
+      border-radius: 10px;
+     
+       
+
+ }    
+}
+
+.clear_btn{
+      button{
+             @include flex4;
+            width: 100%;
+            padding: 15px 15px;
+            border-radius: 10px;
+            border: none;
+            transition: all .7s linear;
+             background-color: #D11A2A;
+            color: white;
+             margin-top: 30px;
+             text-transform: capitalize;
+             font-weight: 600;
+             font-size: 18px;
+             cursor: pointer;
+
+      &:hover{
+            background-color: #fff;
+              color: black;
+      }
+      .clear_icon{
+            font-size: 20px;
+      }
+      }
+
+     
+}
+
+
+
+.updated_input{
+      border: none;
+      width: 100%;
+      height: 30px;
+      text-indent: 10px;
+      background: transparent;
+      border-bottom: 1px solid white;
+      -webkit-appearance: none;
+       box-shadow: none !important;
+       color: rgb(245, 236, 236);
+     &::placeholder{
+            color: white;
+     }
+     &:focus{
+             outline: none ;
+           
+     }
+
+}

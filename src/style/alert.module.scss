@@ -1,0 +1,25 @@
+.alert{
+    text-align: center;
+    background: aliceblue;
+    border-radius: 10px;
+    color: grey;
+    margin: 20px ;
+}
+
+.alert_danger{
+    text-align: center;
+    background: rgb(228, 22, 7);
+    border-radius: 10px;
+    color: rgb(252, 243, 243);
+
+}
+
+.alert_success{
+    text-align: center;
+    background: rgb(13, 77, 1);
+    border-radius: 10px;
+    color: rgb(252, 243, 243);
+    margin-top: 20px;
+    text-transform: capitalize;
+   
+}
